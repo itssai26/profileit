@@ -1,5 +1,4 @@
 ## Welcome to GitHub Pages
-![badge](https://user-images.githubusercontent.com/98533633/151529722-4b505cfd-c1a6-436b-8899-33f01e402f24.png)
 
 You can use the [editor on GitHub](https://github.com/itssai26/profileit/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
