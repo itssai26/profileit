@@ -1,3 +1,4 @@
+![pic2](https://user-images.githubusercontent.com/98533633/151532636-9c0faf1d-22ff-449d-b48b-f5edd885ab18.jpg)
 ## Welcome to GitHub Pages
 
 
@@ -12,7 +13,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
-![pic2](https://user-images.githubusercontent.com/98533633/151532636-9c0faf1d-22ff-449d-b48b-f5edd885ab18.jpg)
+
 # Header 1
 ## Header 2
 ### Header 3
