@@ -1,11 +1,12 @@
 ## Welcome to GitHub Pages
-![pic2](https://user-images.githubusercontent.com/98533633/151532636-9c0faf1d-22ff-449d-b48b-f5edd885ab18.jpg)
+
 
 You can use the [editor on GitHub](https://github.com/itssai26/profileit/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
+![pic2](https://user-images.githubusercontent.com/98533633/151532636-9c0faf1d-22ff-449d-b48b-f5edd885ab18.jpg)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
