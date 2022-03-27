@@ -52,21 +52,21 @@ CLICK ME TO DISPLAY DATE AND TIME</button>
 <input type="button" onClick="multiplyBy()" Value="Multiply" />
 <input type="button" onClick="divideBy()" Value="Divide" />
 </form>
-<p>The Result is : <br>
-<span id = "result"></span>
-</p>
+
 <script>
 function multiplyBy(){
         num1 = document.getElementById("FIRSTNUMBER").value;
-        num2 = document.getElementById("SECONDNUMBERr").value;
-        document.getElementById("result").innerHTML = num1 * num2;
+        num2 = document.getElementById("SECONDNUMBER").value;
+        res=num1+num2;
+        document.write(res);
 }
 
 function divideBy() 
 { 
         num1 = document.getElementById("FIRSTNUMBER").value;
         num2 = document.getElementById("SECONDNUMBER").value;
-document.getElementById("result").innerHTML = num1 / num2;
+         res= num1 / num2;
+   document.write(res);
 }
 
 </script>
