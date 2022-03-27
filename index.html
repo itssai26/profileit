@@ -50,7 +50,7 @@ p    {color: black;
   Sorry, your browser does not support inline SVG.
 </svg><br><br><br>
 <br><br>
-<div id="cal">
+<div "style= background-color:skyblue">
 1st NUMBER :<input type="text" id="FIRSTNUMBER" /><br>
 2nd NUMBER : <input type="text" id="SECONDNUMBER"/><br>
 <input type="button" onClick="multiplyBy()" Value="Multiply" />
@@ -62,7 +62,7 @@ function multiplyBy(){
         num1 = document.getElementById("FIRSTNUMBER").value;
         num2 = document.getElementById("SECONDNUMBER").value;
         res=num1+num2;
-        document.write(res);
+      console.log(res);
 }
 
 function divideBy() 
