@@ -55,14 +55,15 @@ p    {color: black;
 2nd NUMBER : <input type="text" id="SECONDNUMBER"/><br>
 <input type="button" onClick="multiplyBy()" Value="Multiply" />
 <input type="button" onClick="divideBy()" Value="Divide" />
+   <h1 id="dem" ></h1>
 </form>
 
 <script>
 function multiplyBy(){
         num1 = document.getElementById("FIRSTNUMBER").value;
         num2 = document.getElementById("SECONDNUMBER").value;
-        res=num1+num2;
-windows.alert(res);
+        document.getElementById("dem").innerHTML=num1*num2;
+
       
 }
 
@@ -70,8 +71,7 @@ function divideBy()
 { 
         num1 = document.getElementById("FIRSTNUMBER").value;
         num2 = document.getElementById("SECONDNUMBER").value;
-         res= num1 / num2;
-   windows.alert(res);
+   document.getElementById("dem").innerHTML=num1/num2;
    
 }
 
