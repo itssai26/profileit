@@ -47,6 +47,29 @@ p    {color: black;
 onclick="document.getElementById('demo').innerHTML = Date()" style="font-size:30px"
        >
 CLICK ME TO DISPLAY DATE AND TIME</button>
+1st NUMBER :<input type="text" id="FIRSTNUMBER" /><br>
+2nd NUMBER : <input type="text" id="SECONDNUMBER"/>
+<input type="button" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" onClick="divideBy()" Value="Divide" />
+</form>
+<p>The Result is : <br>
+<span id = "result"></span>
+</p>
+<script>
+function multiplyBy(){
+        num1 = document.getElementById("FIRSTNUMBER").value;
+        num2 = document.getElementById("SECONDNUMBERr").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
+
+function divideBy() 
+{ 
+        num1 = document.getElementById("FIRSTNUMBER").value;
+        num2 = document.getElementById("SECONDNUMBER").value;
+document.getElementById("result").innerHTML = num1 / num2;
+}
+
+</script>
 
 <h1>VAAGDEVI COLLEGES</h1>
 <video width="1050" height="600" controls>
