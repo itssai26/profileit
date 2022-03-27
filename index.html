@@ -11,6 +11,12 @@ th, td {
   background-color: skyblue;
    padding:15px;
 }
+   .cal{
+       background-color:skyblue;
+      color:solid black;
+      border:5px solid black;
+   }
+      
    .info {
      background-color:skyblue;
       color:solid black;
@@ -43,11 +49,8 @@ p    {color: black;
   <text fill="black" font-size="45" font-family="Verdana" x="50" y="86">SAI</text>
   Sorry, your browser does not support inline SVG.
 </svg><br><br><br>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()" style="font-size:30px"
-       >
-CLICK ME TO DISPLAY DATE AND TIME</button><br><br>
-<div>
+<br><br>
+<div id="cal">
 1st NUMBER :<input type="text" id="FIRSTNUMBER" /><br>
 2nd NUMBER : <input type="text" id="SECONDNUMBER"/><br>
 <input type="button" onClick="multiplyBy()" Value="Multiply" />
